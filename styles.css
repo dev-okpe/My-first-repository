@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    background: url('hhh.png') no-repeat center center;
+    background: url('assets/hhh.png') no-repeat center center;
     background-size: cover;
     height: 100vh; /* Full viewport height */
     color: white;
@@ -34,4 +34,17 @@
 
   .hero p {
     font-size: 1.25rem;
+  }
+  footer{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer h3{
+    color: white;
+  }
+  footer p{
+    color: white;
   }
